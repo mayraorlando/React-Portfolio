@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family:'Times New Roman', Times, serif,
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    background: radial-gradient(#aed6dc, white);
+  color:black;
+}
+.name{
+  display:inline-block;
+  width:500px;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  margin-left:100px;
+  background-color: var( --primary);
+  font-family:Arial, Helvetica, sans-serif;
+  color:black;
+  border-radius: 15px;
+}
+.navbar{
+  display:flex;
+  display: inline-block;
+  align-items:center;
+  padding:10px;
+  margin:auto;
+  width:50%;
+  text-align: center;
+ }
+
+ nav{
+  /* flex:1; */
+  /* text-align:right; */
+  /* background-color: var(--secondary); */
+}
+
+nav ul{
+  text-align:right;
+  display: inline-block;
+  list-style-type:none;
+  margin:50px;
+  
+}
+.AboutMe{
+  /* width: 600px;
+  height:400px; */
+  display: inline-block;
+  padding:10px;
+  margin:5px 30px;
+  line-height: 30px;
+}
+.email, .phone, .Contact, .portfolio{
+  line-height: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;
+   margin:5px 30px;
+}
